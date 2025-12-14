@@ -1,0 +1,106 @@
+/* Combined CSS for my whole website */
+
+/* body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* navigation */
+.nav {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* content */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* footer */
+.footer {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* forms */
+form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #800020;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: auto;
+}
+
+/* gallery */
+.gallery-image {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery-image img {
+    width: 250px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 5px;
+}
+
+/* service box – from services.css */
+.service-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
